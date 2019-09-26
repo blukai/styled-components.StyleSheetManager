@@ -7,12 +7,12 @@ const Flower = styled.div`
   display: flex;
 `;
 
-it('Violet', () => {
+it('creates snapshot of styles', () => {
   const tree = render.create(<Flower />).toJSON();
   expect(tree).toMatchSnapshot();
 });
 
-it('Iris', () => {
+it("doesn't create snapshot of styles", () => {
   const tree = render.create(
     <StyleSheetManager disableVendorPrefixes>
       <Flower />

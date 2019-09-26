@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`👍 1`] = `
+exports[`creates snapshot of styles 1`] = `
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -13,7 +13,7 @@ exports[`👍 1`] = `
 />
 `;
 
-exports[`👎 1`] = `
+exports[`doesn't create snapshot of styles 1`] = `
 <div
   className="sc-AykKC htpBwX"
 />
